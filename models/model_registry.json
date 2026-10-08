@@ -1,0 +1,5 @@
+{
+  "embedding": {"provider": "bedrock_knowledge_base", "version": "managed"},
+  "llm": {"provider": "amazon_bedrock", "version": "configurable"},
+  "prompt": {"name": "enterprise-rag", "version": "v1", "status": "candidate"}
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860">
+  <rect width="1400" height="860" fill="white"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#111">
+    <text x="70" y="70" font-size="34" font-weight="700">Cloud AI Serverless AWS — LLM/RAG + MLOps Flagship</text>
+    <text x="70" y="105" font-size="18">Enterprise document intelligence with managed RAG, serverless inference, event-driven ingestion and measurable evaluation.</text>
+
+    <g stroke="#222" stroke-width="2" fill="#f7f7f7">
+      <rect x="70" y="160" width="180" height="80" rx="14"/><rect x="330" y="160" width="200" height="80" rx="14"/>
+      <rect x="620" y="145" width="230" height="110" rx="14"/><rect x="930" y="160" width="200" height="80" rx="14"/>
+      <rect x="1180" y="160" width="150" height="80" rx="14"/>
+      <rect x="70" y="360" width="220" height="90" rx="14"/><rect x="380" y="360" width="190" height="90" rx="14"/>
+      <rect x="660" y="360" width="210" height="90" rx="14"/><rect x="970" y="360" width="220" height="90" rx="14"/>
+      <rect x="70" y="585" width="240" height="90" rx="14"/><rect x="390" y="585" width="240" height="90" rx="14"/>
+      <rect x="710" y="585" width="240" height="90" rx="14"/><rect x="1030" y="585" width="300" height="90" rx="14"/>
+    </g>
+
+    <g font-size="19" text-anchor="middle">
+      <text x="160" y="208" font-weight="700">End User</text><text x="430" y="208" font-weight="700">API Gateway</text>
+      <text x="735" y="190" font-weight="700">RAG Lambda</text><text x="735" y="216">orchestrator</text>
+      <text x="1030" y="208" font-weight="700">Redis Cache</text><text x="1255" y="208" font-weight="700">Bedrock KB</text>
+      <text x="180" y="398" font-weight="700">S3 Documents</text><text x="475" y="398" font-weight="700">EventBridge</text>
+      <text x="765" y="398" font-weight="700">SQS</text><text x="1080" y="398" font-weight="700">Ingestion Worker</text>
+      <text x="190" y="623" font-weight="700">Evaluation Set</text><text x="510" y="623" font-weight="700">MLOps Evaluator</text>
+      <text x="830" y="623" font-weight="700">MLflow</text><text x="1180" y="623" font-weight="700">Versioned Prompt / Model Config</text>
+    </g>
+
+    <g stroke="#222" stroke-width="3" fill="none" marker-end="url(#a)">
+      <path d="M250 200 H330"/><path d="M530 200 H620"/><path d="M850 200 H930"/><path d="M1130 200 H1180"/>
+      <path d="M180 360 V240"/><path d="M290 405 H380"/><path d="M570 405 H660"/><path d="M870 405 H970"/>
+      <path d="M190 585 V450"/><path d="M310 630 H390"/><path d="M630 630 H710"/><path d="M950 630 H1030"/>
+    </g>
+
+    <g font-size="16">
+      <text x="70" y="770">Security: IAM separation • S3 public-access block • secrets outside Git</text>
+      <text x="70" y="800">Observability: CloudWatch logs • benchmark p50/p95 • MLflow evaluation traces</text>
+    </g>
+  </g>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 Z" fill="#222"/></marker></defs>
+</svg>

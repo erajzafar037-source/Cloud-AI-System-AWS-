@@ -1,0 +1,2 @@
+{"question":"What is the purpose of an incident response plan?","reference_answer":"To provide a repeatable process for detecting, containing, investigating, communicating, and recovering from incidents."}
+{"question":"Why should enterprise AI systems log model and prompt versions?","reference_answer":"To make responses reproducible, auditable, and easier to evaluate and roll back."}
